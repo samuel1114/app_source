@@ -1,2 +1,3 @@
 #!/bin/sh
 esho "run"
+${PAYARA_PATH}/bin/startInForeground.sh --passwordfile=/opt/pwdfile --postbootcommandfile ${POSTBOOT_COMMANDS} ${PAYARA_DOMAIN}
